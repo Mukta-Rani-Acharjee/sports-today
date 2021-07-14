@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+      /* common styles */
+body{
+background-color: #f3f1ff;
+font-family: 'Lato', sans-serif;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 1160px;
+    padding: 40px 40px;
+    
+  }
+
+header{
+    height: 100vh;
+    background-color: #562eff;
+    }
+.header-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+          /* menu part */
+.menu-part{
+    width: 1160px;
+ 
+    margin-top: 20px;
+}
+            
+.main-menu{
+    display: flex;
+
+}
+.main-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color:orange;
+}
+
+.menu-btn{
+    border:1px solid #E02C6D;
+    padding: 7px 25px;
+    border-radius: 40px;
+    color: white;
+    background:#E02C6D;
+    margin-left: 280px;
+    
+}
+          /* banner part */
+.banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-item{
+    width: 1160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.banner-text{
+    width: 50%;
+    position: relative;
+}
+.banner-text h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    
+}
+.banner-img-right{
+    width: 70%;
+    transition:width 8s;
+}
+.banner-img-right:hover{
+    width: 100%;
+}
+.common-btn{
+    border: 1px solid #E02C6D;
+    color: white;
+    background-color:#E02C6D;
+    padding: 9px 29px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    
+}
+.btn-text{
+    margin-right: 10px;
+}
+.common-btn:hover{
+    background-color:orangered ;
+}
+.btn-icon{
+     position: absolute;
+     top: 257px;
+     left: 105px;
+     color: white;
+ }
+
+    
+.banner-img-right img{
+    width: 50%;
+    float: right;
+}
+.logo{
+    text-align: center;
+}
+
+             /* players part */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+ .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
+}
+.players .blog h3{
+    font-size: 25px;
+    color:#3d2514;
+    margin-bottom: 15px;
+}
+.players .blog p{
+    color: #101010;
+    font-size: 15px;
+}
+.blog{
+    text-align: center;
+    padding: 15px;
+    width: 330px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.blog img{
+    width: 320px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+          /* Highlights part */
+
+.highlights{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.highlights-text{
+   display: inline-block;
+   font-size: 50px;
+   margin-left: 80px;
+   padding: 50px 0;
+}
+.highlights-btn{
+    border: 1px solid #E02C6D;
+    color: white;
+    background-color:#E02C6D;
+    padding: 9px 29px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    margin-left: 80px;
+
+}
+.highlights-btn:hover{
+    background-color: teal;
+}
+.highlights img{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    transition: width 8s;
+ }
+ .highlights img:hover{
+     width: 70%;
+ }
+            /* form section start here */
+ .reservation{
+    padding: 120px 0;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ .reservation h1{
+     font-size: 40px;
+     letter-spacing: 3px;
+     color: #3d2514;
+     font-weight: 700;
+     font-size: 35px;
+      margin-bottom: 70px;
+ }
+ .reservation h3{
+    font-size: 49px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: #3d2514;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+ }
+ input{
+    height: 44px;
+    width: 350px;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-left: 10px;
+    color:#101010;
+    font-weight: 400;
+    
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    
+ }
+ .form{
+     text-align: center; 
+    
+    
+ }
+       /* form section end here */
+
+        /* shadow section */
+ .shadow-part{
+   display: flex;
+ } 
+ .shadow img{
+     width: 50%;
+     margin-left: 30px;
+     transition: background-color 8s;
+ } 
+ .shadow img:hover{
+     background-color: red;
+ } 
+ 
+ .shadow-icon{
+     font-size: 40px;
+     list-style: none;
+     margin-bottom:35px;
+     }  
+     .shadow-icon a{
+        border: 1px solid #E02C6D;
+        border-radius: 50px;
+        padding: 3px 8px;
+        background: firebrick;
+        color: white;
+     }
+     .shadow-icon a:hover{
+         background-color: gold;
+     }
+
+    
+
+                  /* footer part */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+              
+.logo img{
+    width: 320px;
+    
+} 
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 18px;
+   
+}
+.social-icon li a{
+    margin-left: 20px;
+    border: 1px solid #E02C6D;
+    border-radius: 50px;
+    padding: 3px 8px;
+    background-color:#E02C6D;
+    color: thistle;
+    transition: font-size 3s;
+}
+.social-icon li a:hover{
+    background-color:chocolate;
+    font-size: 40px;
+}
+.copyright{
+    text-align: center;
+} 
+.shadow-icon li a i{
+    margin-bottom: 20px;
+}
+.copyright span{
+    color: red;
+}  
+
+
+           /*  responsive media query code */
+
+ @media only screen and (max-width:600px) { 
+     
+ .menu-part{
+    display: none;
+}
+      
+ header{
+     width:850px !important;
+ }
+ .header-body{
+     display: block;
+
+}
+.banner{
+    display: block;
+}
+.banner-item{
+    width: 100%;
+    display: block;
+}
+.banner-text {
+    width: 100%;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    margin-left: 450px;
+    padding: 40px 100px;
+}
+.players{
+    grid-template-columns: repeat(1, 3fr);  
+}
+.shadow-part{
+    flex-direction: column;
+    align-items: center;
+}
+
+ .shadow img{
+     width: 100%;
+     margin-left: 129px;
+ }             
+ } 
